@@ -30,7 +30,7 @@ Led teams of up to **80 people**, built engineering and product processes from s
 
 ### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> Currently
 
-**CEO & CPO @ AXIIOM** — building fintech platforms, loyalty ecosystems, and highload IT solutions from the ground up.
+**CEO & CPO @ <a href="https://github.com/axiiom-ru">AXIIOM</a>** — building fintech platforms, loyalty ecosystems, and highload IT solutions from the ground up.
 
 - Launched 2 platforms from zero: fintech loyalty operator + B2B marketplace
 - Designed microservice event-driven architecture (Kafka, K8s, PostgreSQL)
@@ -87,7 +87,7 @@ Led teams of up to **80 people**, built engineering and product processes from s
 
 <div align="center" style="opacity: 0.6; font-size: 0.85rem;">
 
-CEO @ AXIIOM — Fintech Infrastructure & Custom IT Solutions for Business
+CEO @ <a href="https://github.com/axiiom-ru">AXIIOM</a> — Fintech Infrastructure & Custom IT Solutions for Business
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=bestdeejay-design.bestdeejay-design&left_color=0D1117&right_color=D4A574" alt="visitors"/>
 
