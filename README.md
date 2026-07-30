@@ -20,7 +20,7 @@ IT leader and product architect with **17+ years** of experience — from develo
 
 I work both sides of transformation — I can design a microservice event-driven architecture (Kafka, Kubernetes, PostgreSQL, Go/Node.js/Python) and carry a project through regulation (BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ; SBP/KKT/OFD/FNS integrations) — the usual bottleneck in finance-sensitive industries.
 
-Led teams of up to **80 people**, built engineering and product processes from scratch.
+Led teams of up to **80 people**, built engineering and product processes from scratch. Open to CDTO / IT-Director / CTO / CPO roles — from 400k ₽.
 
 </div>
 
@@ -37,31 +37,21 @@ Led teams of up to **80 people**, built engineering and product processes from s
 - Fintech compliance: BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ; SBP/KKT/OFD/FNS integrations
 - Integrations with banks, telecom, retail, logistics
 
+Also building **LOVII** — white-label SaaS for local marketplaces (micro & small business). *Status: pre-MVP, pre-revenue.*
+
 </div>
 
 ---
 
 <div align="center">
 
-### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Experience
+### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Experience highlights
 
-**Founder, Digital Ecosystem Architect — LOVII** *(project of OOO "Axiom")* · Sep 2025 — present
-White-label SaaS platform for local marketplaces (micro & small business). Built financial & monetization model, designed architecture. *Status: pre-MVP, pre-revenue — no real transactions yet.*
-
-**CTO — IT-Park / Digital Lab** *(single structure)* · Apr 2018 — Jun 2025 · 7y 3m
-Built the holding's IT function from zero; grew the company from startup to 45 engineers, mentored 8 leads/managers; Agile/Scrum, RICE/ICE, RBAC/LDAP/Harbor, CI/CD; cut ops costs 20%.
-
-**CEO / Co-founder — MOBIAP** · Feb 2012 — Aug 2021 · 9y 7m
-Mobile tech & advertising company. RTB integrations (Smaato, etc.); partners: Tinkoff, Burda, Axel Springer, "big three". Ran ZED, Meevu, Ready for Sky in parallel.
-
-**CTO (contract) — Meevu Management LTD** *(Cyprus)* · Mar 2016 — Jun 2017
-Real-time highload ad platform (DSP/SSP); distributed team 10+; CI/CD cut time-to-market 25%.
-
-**Head of Product / PM — ZED** *(Beeline.Kiosk, VMET.RO)* · Mar 2013 — May 2015
-Carrier subscription services, 150k+ subscribers, team 60+; owned P&L; launched in Ukraine & Italy.
-
-**CEO / Founder — MOBIADS** · Nov 2008 — Oct 2012
-First dynamic modular mobile ad network in Russia; built tech from scratch (REST API, SDK); mobtop.ru — Runet Prize 2011 nominee; business sold.
+- **CTO — IT-Park / Digital Lab** (Apr 2018 — Jun 2025, 7y 3m): built the holding's IT function from zero; grew company from startup to 45 engineers, mentored 8 leads/managers; Agile/Scrum, RICE/ICE, RBAC/LDAP/Harbor, CI/CD; cut ops costs 20%.
+- **CEO / Co-founder — MOBIAP** (Feb 2012 — Aug 2021, 9y 7m): mobile tech & advertising; RTB integrations; partners Tinkoff, Burda, Axel Springer, "big three".
+- **CTO (contract) — Meevu** (Cyprus, 2016–2017): real-time highload ad platform (DSP/SSP); team 10+; CI/CD cut time-to-market 25%.
+- **Head of Product — ZED** (Beeline.Kiosk, VMET.RO, 2013–2015): carrier subscription services, 150k+ subscribers, team 60+; owned P&L.
+- **Founder — MOBIADS** (2008–2012): first dynamic modular mobile ad network in Russia; Runet Prize 2011 nominee; business sold.
 
 </div>
 
@@ -117,7 +107,7 @@ First dynamic modular mobile ad network in Russia; built tech from scratch (REST
 <a href="https://t.me/bestdeejay"><img src="https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="tel:+791****7478"><img src="https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"></a>
 
-**St. Petersburg, Russia** · Open to CDTO / IT-Director / CTO / CPO roles · from 400k ₽
+**St. Petersburg, Russia**
 
 </div>
 
