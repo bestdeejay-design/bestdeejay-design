@@ -63,12 +63,20 @@ Led teams of up to **80 people**, built engineering and product processes from s
 ### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> GitHub Activity
 
 <a href="https://github-profile-summary-cards.vercel.app">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bestdeejay-design&theme=github_dark" alt="GitHub Contribution"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bestdeejay-design&theme=github_dark&animation=draw&name=BEST+D-D" alt="GitHub Contribution"/>
 </a>
 
 <a href="https://github-profile-summary-cards.vercel.app">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bestdeejay-design&theme=github_dark" alt="Top Languages"/>
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bestdeejay-design&theme=github_dark" alt="Most Commit Language"/>
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bestdeejay-design&theme=github_dark&animation=draw" alt="Top Languages"/>
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bestdeejay-design&theme=github_dark&animation=draw" alt="Most Commit Language"/>
+</a>
+
+<a href="https://github-profile-summary-cards.vercel.app">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bestdeejay-design&theme=github_dark&animation=draw" alt="GitHub Stats"/>
+</a>
+
+<a href="https://github-profile-summary-cards.vercel.app">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bestdeejay-design&theme=github_dark&animation=draw&utcOffset=0" alt="Productive Time"/>
 </a>
 
 </div>
