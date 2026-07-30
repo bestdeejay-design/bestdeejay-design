@@ -89,8 +89,8 @@ Led teams of up to **80 people**, built engineering and product processes from s
 
 <a href="mailto:bestdeejay@ya.ru"><img src="https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://t.me/bestdeejay"><img src="https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-<a href="tel:+79119287478"><img src="https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"></a>
-
+<a href="tel:+791****7478"><img src="https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"></a>
+<a href="https://github.com/bestdeejay-design/resume"><img src="https://img.shields.io/badge/Resume-CDTO%2FCTO%2FCPO-D4A574?style=for-the-badge&logo=github&logoColor=white" alt="Resume"/></a>
 **St. Petersburg, Russia**
 
 </div>
