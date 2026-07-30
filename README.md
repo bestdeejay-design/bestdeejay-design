@@ -29,7 +29,7 @@ I run **digital transformation end-to-end** — from business goal to working pl
 | | |
 |:---|:---|
 | 🚀 | Scaled an IT company **5 → 45 engineers**, grew **8** team leads — IT-Park / Digital Lab (2018–2025) |
-| 💰 | Raised project financing from **Sberbank — up to ₽4.1B** for an IT platform |
+| 💰 | Raised project financing from **Sberbank — up to ₽4.1B**  |
 | 🏗️ | Built a **fintech loyalty operator + B2B marketplace from zero** (AXIIOM) with full CB RF compliance |
 | 🏆 | Founded **MOBIADS** — first dynamic modular mobile ad network in Russia; Runet Prize 2011 nominee; business acquired |
 | 👥 | Led carrier subscription products — **150k+ subscribers**, team 60+ (ZED / Beeline.Kiosk) |
