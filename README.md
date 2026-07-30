@@ -2,7 +2,7 @@
 
 # Sergey Kuzyukov
 
-**CPO / CTO / IT Leader**  
+**CDTO / IT-Director / CTO / CPO** · 47 y.o. · St. Petersburg, Russia
 
 <a href="https://axiiom.ru"><img src="https://img.shields.io/badge/AXIIOM-CEO-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white" alt="AXIIOM"></a>
 <a href="mailto:bestdeejay@ya.ru"><img src="https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
@@ -16,9 +16,9 @@
 
 ### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> About
 
-IT leader and product architect with **20+ years** of experience — from developer to CEO. I build ecosystems at the intersection of business, finance, and technology.
+IT leader and product architect with **17+ years** of experience — from developer to CTO, CEO, and founder of technology companies. I do digital transformation end-to-end: translate business goals into digital strategy, design the architecture, and model the economics (P&L, unit economics, payback).
 
-I speak both architecture (microservices, event-driven, Kafka, Kubernetes, PostgreSQL, Go/Node.js/Python) and business (P&L, unit economics, LTV/CAC). I translate business goals into product roadmaps and technical architecture.
+I work both sides of transformation — I can design a microservice event-driven architecture (Kafka, Kubernetes, PostgreSQL, Go/Node.js/Python) and carry a project through regulation (BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ; SBP/KKT/OFD/FNS integrations) — the usual bottleneck in finance-sensitive industries.
 
 Led teams of up to **80 people**, built engineering and product processes from scratch.
 
@@ -34,8 +34,34 @@ Led teams of up to **80 people**, built engineering and product processes from s
 
 - Launched 2 platforms from zero: fintech loyalty operator + B2B marketplace
 - Designed microservice event-driven architecture (Kafka, K8s, PostgreSQL)
-- Fintech compliance: 161-FZ, 115-FZ, 54-FZ, 152-FZ
+- Fintech compliance: BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ; SBP/KKT/OFD/FNS integrations
 - Integrations with banks, telecom, retail, logistics
+
+</div>
+
+---
+
+<div align="center">
+
+### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Experience
+
+**Founder, Digital Ecosystem Architect — LOVII** *(project of OOO "Axiom")* · Sep 2025 — present
+White-label SaaS platform for local marketplaces (micro & small business). Built financial & monetization model, designed architecture. *Status: pre-MVP, pre-revenue — no real transactions yet.*
+
+**CTO — IT-Park / Digital Lab** *(single structure)* · Apr 2018 — Jun 2025 · 7y 3m
+Built the holding's IT function from zero; grew the company from startup to 45 engineers, mentored 8 leads/managers; Agile/Scrum, RICE/ICE, RBAC/LDAP/Harbor, CI/CD; cut ops costs 20%.
+
+**CEO / Co-founder — MOBIAP** · Feb 2012 — Aug 2021 · 9y 7m
+Mobile tech & advertising company. RTB integrations (Smaato, etc.); partners: Tinkoff, Burda, Axel Springer, "big three". Ran ZED, Meevu, Ready for Sky in parallel.
+
+**CTO (contract) — Meevu Management LTD** *(Cyprus)* · Mar 2016 — Jun 2017
+Real-time highload ad platform (DSP/SSP); distributed team 10+; CI/CD cut time-to-market 25%.
+
+**Head of Product / PM — ZED** *(Beeline.Kiosk, VMET.RO)* · Mar 2013 — May 2015
+Carrier subscription services, 150k+ subscribers, team 60+; owned P&L; launched in Ukraine & Italy.
+
+**CEO / Founder — MOBIADS** · Nov 2008 — Oct 2012
+First dynamic modular mobile ad network in Russia; built tech from scratch (REST API, SDK); mobtop.ru — Runet Prize 2011 nominee; business sold.
 
 </div>
 
@@ -49,7 +75,7 @@ Led teams of up to **80 people**, built engineering and product processes from s
 |:---|:---|
 | **Product** | CPO, P&L, Unit Economics, Product Discovery, Roadmap, MVP, RICE/ICE |
 | **Management** | Teams up to 80, Agile/Scrum, Hiring, Career Tracks, Motivation |
-| **Domain** | Fintech, BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ, SBP, CCT, OFD |
+| **Domain** | Fintech, BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ, SBP, KKT, OFD, FNS |
 | **Architecture** | Microservices, Event-driven, HighLoad, API Gateway, REST |
 | **Infrastructure** | Kubernetes, Docker, Apache Kafka, PostgreSQL, Linux KVM, CI/CD |
 | **Stack** | Go, Node.js, Python, Java, PHP |
@@ -90,8 +116,8 @@ Led teams of up to **80 people**, built engineering and product processes from s
 <a href="mailto:bestdeejay@ya.ru"><img src="https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://t.me/bestdeejay"><img src="https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="tel:+791****7478"><img src="https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"></a>
-<a href="https://github.com/bestdeejay-design/resume"><img src="https://img.shields.io/badge/Resume-CDTO%2FCTO%2FCPO-D4A574?style=for-the-badge&logo=github&logoColor=white" alt="Resume"/></a>
-**St. Petersburg, Russia**
+
+**St. Petersburg, Russia** · Open to CDTO / IT-Director / CTO / CPO roles · from 400k ₽
 
 </div>
 
