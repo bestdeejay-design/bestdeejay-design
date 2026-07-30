@@ -18,7 +18,7 @@
 
 IT leader and product architect with **17+ years** of experience — from developer to CTO, CEO, and founder of technology companies. I run digital transformation end-to-end: turn business goals into a digital strategy, design the architecture, and model the economics (P&L, unit economics, payback).
 
-What sets me apart from a classic IT director: I work **both sides**. I can design a microservice event-driven architecture (Kafka, Kubernetes, PostgreSQL, Go/Node.js/Python) **and** carry a project through regulation (BPA, 161-FZ, 115-FZ, 54-FZ, 152-FZ; SBP / KKT / OFD / FNS) — the usual bottleneck in finance-sensitive industries.
+What sets me apart from a classic IT director: I work **both sides**. I can design a microservice event-driven architecture (Kafka, Kubernetes, PostgreSQL, Go/Node.js/Python) **and** carry a project through regulation (BPA, 161/115/54/152-ФЗ; SBP / KKT / OFD / FNS) — the usual bottleneck in finance-sensitive industries.
 
 Led teams of up to **80 people**; built engineering and product processes from scratch.
 
@@ -48,7 +48,7 @@ Led teams of up to **80 people**; built engineering and product processes from s
 
 - Launched 2 platforms from zero: fintech loyalty operator + B2B marketplace
 - Designed microservice event-driven architecture (Kafka, K8s, PostgreSQL)
-- Fintech compliance: 161-FZ, 115-FZ, 54-FZ, 152-FZ
+- Full fintech compliance (BPA, 161/115/54/152-ФЗ; SBP / KKT / OFD / FNS)
 - Integrations with banks, telecom, retail, logistics
 
 Also building **LOVII** — white-label SaaS for local marketplaces (micro & small business). *Status: pre-MVP, pre-revenue.*
