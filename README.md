@@ -79,7 +79,7 @@ Also building **LOVII** — white-label SaaS for local marketplaces (micro & sma
 **🔹 Scaled an IT function 5 → 45 engineers** — IT-Park / Digital Lab (2018–2025)
 Built the holding's IT from zero: dev/test/release processes, Agile/Scrum, RBAC/LDAP/Harbor, CI/CD. Grew 8 team leads from within; cut ops costs 20%.
 
-**🔹 ₽4.1B project financing from Sberbank** — structured an IT platform for a major bank engagement; led the technical and compliance work that made the deal viable.
+**🔹 ₽2.8B + ₽4.1B project financing from Sberbank (twice)** — owned the full path from first call to the bank's commercial offer for a major banking project; led the technical and compliance work that made the deal viable.
 
 **🔹 Fintech from zero, fully compliant** — AXIIOM (2024→)
 Launched a loyalty-points operator + B2B marketplace on event-driven microservices; BPA model, 161/115/54/152-ФЗ, SBP / KKT / OFD / FNS; integrations with banks, telecom, retail, logistics.
