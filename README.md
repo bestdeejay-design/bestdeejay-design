@@ -5,6 +5,7 @@
 [![AXIIOM](https://img.shields.io/badge/AXIIOM-CEO-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white)](https://axiiom.ru)
 [![Email](https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bestdeejay@ya.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bestdeejay)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bestdeejay-D4A574?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bestdeejay)
 [![Phone](https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white)](tel:+79119287478)
 
 ---
@@ -91,6 +92,7 @@ I'm open to **CDTO / IT-Director / CTO / CPO** roles — full-time or project-ba
 
 [![Email](https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bestdeejay@ya.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bestdeejay)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bestdeejay-D4A574?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bestdeejay)
 [![Phone](https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white)](tel:+79119287478)
 
 St. Petersburg, Russia
