@@ -74,6 +74,25 @@ Also building **LOVII** — white-label SaaS for local marketplaces (micro & sma
 
 <div align="center">
 
+### 🧩 Case studies
+
+**🔹 Scaled an IT function 5 → 45 engineers** — IT-Park / Digital Lab (2018–2025)
+Built the holding's IT from zero: dev/test/release processes, Agile/Scrum, RBAC/LDAP/Harbor, CI/CD. Grew 8 team leads from within; cut ops costs 20%.
+
+**🔹 ₽4.1B project financing from Sberbank** — structured an IT platform for a major bank engagement; led the technical and compliance work that made the deal viable.
+
+**🔹 Fintech from zero, fully compliant** — AXIIOM (2024→)
+Launched a loyalty-points operator + B2B marketplace on event-driven microservices; BPA model, 161/115/54/152-ФЗ, SBP / KKT / OFD / FNS; integrations with banks, telecom, retail, logistics.
+
+**🔹 First in Russia, then exit** — MOBIADS (2008–2012)
+Built the country's first dynamic modular mobile ad network (REST API, SDK); mobtop.ru — Runet Prize 2011 nominee; business acquired.
+
+</div>
+
+---
+
+<div align="center">
+
 ### <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> GitHub Activity
 
 <a href="https://github-profile-summary-cards.vercel.app">
@@ -101,7 +120,9 @@ Also building **LOVII** — white-label SaaS for local marketplaces (micro & sma
 
 ### 📬 Open to & Contact
 
-**Open to CDTO / IT-Director / CTO / CPO roles** — full-time or project-based · from 400k ₽
+**👋 I'm open to CDTO / IT-Director / CTO / CPO roles** — full-time or project-based. If you're building (or fixing) a fintech or highload platform and need someone who speaks both architecture and regulation — let's talk.
+
+**From 400k ₽** · Relocation: partial · Business trips: yes
 
 <a href="mailto:bestdeejay@ya.ru"><img src="https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://t.me/bestdeejay"><img src="https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
