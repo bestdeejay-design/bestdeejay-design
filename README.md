@@ -102,3 +102,5 @@ St. Petersburg, Russia
 *CEO @ [AXIIOM](https://github.com/axiiom-ru) — Fintech Infrastructure & Custom IT Solutions for Business*
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=bestdeejay-design.bestdeejay-design&left_color=0D1117&right_color=D4A574)
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:2563EB,100:06B6D4&height=160&section=footer)
