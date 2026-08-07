@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=260&color=0:3F46E5,20:2563EB,100:06B6D4&text=Tobei%20Okita&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38)
+![header](https://capsule-render.vercel.app/api?type=waving&height=260&color=0:3F46E5,20:2563EB,100:06B6D4&text=Sergey%20Kuzyukov&desc=Founder&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descSize=24&descAlignY=60)
 # Sergey Kuzyukov
 
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
