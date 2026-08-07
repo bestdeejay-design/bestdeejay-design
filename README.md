@@ -102,7 +102,7 @@ Built the country's first dynamic modular mobile ad network (REST API, SDK); mob
 
 ## GitHub Activity
 
-[![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bestdeejay-design&theme=github_dark&animation=draw&name=BEST+D-D)](https://github-profile-summary-cards.vercel.app)
+[![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bestdeejay-design&theme=github_dark&animation=draw&name=BESTDEEJAY)](https://github-profile-summary-cards.vercel.app)
 
 [![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bestdeejay-design&theme=github_dark&animation=draw)](https://github-profile-summary-cards.vercel.app)
 [![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bestdeejay-design&theme=github_dark&animation=draw)](https://github-profile-summary-cards.vercel.app)
