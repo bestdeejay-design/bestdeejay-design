@@ -2,7 +2,7 @@
   <rect width="142.0" height="28" rx="4" fill="#555555"/>
   <rect x="94.0" width="48.0" height="28" rx="4" fill="#D4A574"/>
   <path d="M94.0 0H100.0V28H94.0Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate(12,9)"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z" fill="none" stroke="#D4A574" stroke-width="1.3"/><path d="M1.5 8h13M8 1.5c2.4 2 2.4 11 0 13M8 1.5c-2.4 2-2.4 11 0 13" fill="none" stroke="#D4A574" stroke-width="1.3"/></g>
-  <text x="34" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">AXIIOM</text>
-  <text x="118.0" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.5" text-anchor="middle">CEO</text>
+  <g fill="#D4A574" transform="translate(12,6.0)"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z" fill="none" stroke="#D4A574" stroke-width="1.3"/><path d="M1.5 8h13M8 1.5c2.4 2 2.4 11 0 13M8 1.5c-2.4 2-2.4 11 0 13" fill="none" stroke="#D4A574" stroke-width="1.3"/></g>
+  <text x="34" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700">AXIIOM</text>
+  <text x="106.0" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700">CEO</text>
 </svg>

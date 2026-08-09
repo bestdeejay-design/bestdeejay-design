@@ -50,13 +50,14 @@ def fmt(n: int) -> str:
 
 
 def render_svg(label: str, value: str) -> str:
-    # Stamped badge: fixed padding (12px) around text, width auto-fits content.
-    # Same layout for badge-axiiom.svg / badge-lovii.svg (icon + label | value).
+    # Stamped badge: fixed 12px padding, width auto-fits, icon vertically centered.
+    # Same layout as badge-axiiom.svg / badge-lovii.svg (icon + label | value).
     label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
     pad = 12
     char_w = 8.0
     icon_w = 22
+    icon_y = 3.2  # star icon bbox ~7.2-14.4 -> center 14
     lw = pad + icon_w + len(label) * char_w + pad
     vw = pad + len(value) * char_w + pad
     w = lw + vw
@@ -65,11 +66,11 @@ def render_svg(label: str, value: str) -> str:
   <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
   <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
   <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate({pad},9)">
+  <g fill="#D4A574" transform="translate({pad},{icon_y})">
     <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
   </g>
-  <text x="{pad + icon_w}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5">{label}</text>
-  <text x="{lw + vw / 2}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5" text-anchor="middle">{value}</text>
+  <text x="{pad + icon_w}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700">{label}</text>
+  <text x="{lw + pad}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700">{value}</text>
 </svg>
 '''
 
