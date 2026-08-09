@@ -50,22 +50,26 @@ def fmt(n: int) -> str:
 
 
 def render_svg(label: str, value: str) -> str:
-    # Series badge: fixed 150x34, dark gradient card, gold rim, star icon + label/value.
-    # Same layout as badge-axiiom.svg / badge-lovii.svg — one consistent row.
+    # Stamped badge: fixed padding (12px) around text, width auto-fits content.
+    # Same layout for badge-axiiom.svg / badge-lovii.svg (icon + label | value).
     label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="{label}: {value}">
-  <defs>
-    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#262C35"/><stop offset="1" stop-color="#191E26"/>
-    </linearGradient>
-  </defs>
-  <rect width="150" height="34" rx="9" fill="url(#b)" stroke="#D4A574" stroke-opacity="0.35" stroke-width="1"/>
-  <g fill="#D4A574" transform="translate(12,9.5)">
+    pad = 12
+    char_w = 8.0
+    icon_w = 22
+    lw = pad + icon_w + len(label) * char_w + pad
+    vw = pad + len(value) * char_w + pad
+    w = lw + vw
+    h = 28
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}: {value}">
+  <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
+  <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
+  <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
+  <g fill="#D4A574" transform="translate({pad},9)">
     <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
   </g>
-  <text x="38" y="13.5" fill="#98A0AB" {font} font-size="9" font-weight="600" letter-spacing="1.2">{label}</text>
-  <text x="38" y="26" fill="#FFFFFF" {font} font-size="14" font-weight="700">{value}</text>
+  <text x="{pad + icon_w}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5">{label}</text>
+  <text x="{lw + vw / 2}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5" text-anchor="middle">{value}</text>
 </svg>
 '''
 
