@@ -21,6 +21,7 @@
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
 </div>
 
+> *"Great products need great teams. I build the teams."*
 ---
 
 ## 🛠 Tech Stack
@@ -125,7 +126,6 @@ I'm open to **CDTO / IT-Director / CTO / CPO** roles — full-time or project-ba
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bestdeejay-D4A574?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bestdeejay)
 [![Phone](https://img.shields.io/badge/Phone-%2B7%20(911)%20928--74--78-D4A574?style=for-the-badge&logo=phone&logoColor=white)](tel:+79119287478)
 
-
 St. Petersburg, Russia
 
 ---
@@ -133,8 +133,6 @@ St. Petersburg, Russia
 *CEO @ [AXIIOM](https://github.com/axiiom-ru) — Fintech Infrastructure & Custom IT Solutions for Business*
 
 <img src="https://api.visitorbadge.io/api/visitors?path=YOUR_USERNAME&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
-
-> *"Great products need great teams. I build the teams."*
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer" alt="footer" />
