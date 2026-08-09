@@ -1,0 +1,27 @@
+name: 🐛 Report an Issue
+description: Report a broken link, factual error, or suggestion for the profile
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve this GitHub profile README.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      options:
+        - Broken link
+        - Factual error / outdated info
+        - Contact information update
+        - Design / layout suggestion
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: What is wrong, and what should it be instead?
+    validations:
+      required: true

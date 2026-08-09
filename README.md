@@ -1,7 +1,7 @@
 <div align="center" style="margin: 0 auto;">
 
   <a href="https://github.com/bestdeejay-design" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=290&color=0:0ABAB5,50:FFFFFF,100:F64A8A&text=Sergey%20Kuzyukov&desc=Founder%20LOVII&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descSize=24&descAlignY=60" alt="header" />
+    <img src="assets/header.svg" alt="header" />
   </a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=D4A574&center=true&vCenter=true&width=800&lines=CEO+%26+CDTO+%26+CTO+%26+CPO;FinTech+Architect+%26+Banking;20%2B+years+in+IT;Digital+Transformation+End-to-End;Building+from+Zero)](https://git.io/typing-svg)
@@ -141,7 +141,7 @@ St. Petersburg, Russia
 <img src="https://api.visitorbadge.io/api/visitors?path=bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
 
 <p align="center">
-<a href="https://github.com/bestdeejay-design" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:F64A8A,100:0ABAB5&text=@bestdeejay&fontColor=FFFFFF&fontSize=21&section=footer&fontAlignY=80&animation=twinkling" alt="footer" />
-</a>
+  <a href="https://github.com/bestdeejay-design" target="_blank">
+    <img src="assets/footer.svg" alt="footer" />
+  </a>
 </p>
