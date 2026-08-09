@@ -12,10 +12,11 @@
     <img src="img/lovii-logo.svg" alt="LOVII Logo" width="600">
   </picture>
 </a>
+</p>
 
 ---
 
-</p><p align="center">
+<p align="center">
 
 [![AXIIOM](https://img.shields.io/badge/AXIIOM-CEO-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white)](https://axiiom.ru)
 [![LOVII](https://img.shields.io/badge/LOVII-FOUNDER-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lovii.ru)
