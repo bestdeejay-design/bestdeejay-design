@@ -26,9 +26,9 @@ ICONS = {
 }
 
 OUTS = {
-    "axiiom": ("AXIIOM", "CEO"),
-    "lovii": ("LOVII", "FOUNDER"),
-    "stars": ("Total stars", "??"),
+    "axiiom": ("AXIIOM", "CEO", "badge-axiiom.svg"),
+    "lovii": ("LOVII", "FOUNDER", "badge-lovii-2.svg"),
+    "stars": ("Total stars", "??", "badge-stars.svg"),
 }
 
 
@@ -109,10 +109,10 @@ def main() -> int:
         print(f"error: {e}", file=sys.stderr)
         return 1
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
-    for name, (label, _value) in OUTS.items():
+    for name, (label, _value, filename) in OUTS.items():
         value = fmt(stars) if name == "stars" else _value
         svg = render_svg(label, value, ICONS[name])
-        out = os.path.join(ROOT, "assets", f"badge-{name}.svg")
+        out = os.path.join(ROOT, "assets", filename)
         with open(out, "w", encoding="utf-8") as f:
             f.write(svg)
         print(f"stars={stars} -> {out}")
