@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="32" viewBox="0 0 166 32" role="img" aria-label="LOVII: FOUNDER">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B313C"/><stop offset="1" stop-color="#171C23"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D4A574" stop-opacity="0.30"/><stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="clip"><rect width="166" height="32" rx="10"/></clipPath>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect width="166" height="32" rx="10" fill="url(#bg)"/>
+    <g clip-path="url(#clip)">
+      <circle cx="21.0" cy="16.0" r="13" fill="url(#glow)"/>
+      <rect width="166" height="14" fill="url(#shine)"/>
+    </g>
+    <rect width="166" height="32" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <image x="14" y="9.0" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLDEyKSBzY2FsZSgwLjI1OCkgdHJhbnNsYXRlKC0xNjUuNCwtMjQwLjEpIj4KPHBhdGggZmlsbD0iI0Q0QTU3NCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjA0LjQxLDIxOC4wNmMtNC4wNS02LjYzLTkuNDktMTEuOTEtMTYuMy0xNS44NC02LjgxLTMuOTMtMTQuMzgtNS45LTIyLjY5LTUuOXMtMTUuODMsMS45Ny0yMi42Niw1LjljLTYuODMsMy45My0xMi4yOCw5LjIxLTE2LjMzLDE1Ljg0LTQuMDUsNi42My02LjA4LDEzLjk3LTYuMDgsMjIuMDRzMi4wMywxNS40Miw2LjA4LDIyLjA0YzQuMDUsNi42Myw5LjUsMTEuOTIsMTYuMzMsMTUuODcsNi44MywzLjk1LDE0LjM5LDUuOTMsMjIuNjYsNS45M3MxNS44OC0xLjk4LDIyLjY5LTUuOTNjNi44MS0zLjk1LDEyLjI1LTkuMjQsMTYuMy0xNS44Nyw0LjA1LTYuNjMsNi4wOC0xMy45Nyw2LjA4LTIyLjA0cy0yLjAzLTE1LjQxLTYuMDgtMjIuMDRaIE0xODcuOTIsMjIzLjk4Yy01LjU4LTUuNTgtMTQuNjItNS41OC0yMC4yLDBsLTIuMzEsMi4zMS0yLjMxLTIuMzFjLTUuNTgtNS41OC0xNC42Mi01LjU4LTIwLjIsMC00LjkxLDQuOTEtNS41LDEyLjUtMS43NiwxOC4wNiw0LjYzLDUuNjYsMTAuNjksMTEuOTEsMjQuNDIsMjQuNWwyMi4zNi0yMi4zNmM1LjU4LTUuNTgsNS41OC0xNC42MiwwLTIwLjJaIi8+CjwvZz4KPC9zdmc+"/>
+    <text x="38" y="20.9" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.6">LOVII<tspan fill="#D4A574" font-weight="800" letter-spacing="0"> FOUNDER</tspan></text>
+  </g>
+</svg>
