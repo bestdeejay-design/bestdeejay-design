@@ -11,7 +11,7 @@
     <img src="img/lovii-logo.svg" alt="LOVII Logo" width="600">
   </picture>
 </a>
-</p>
+
 
 ---
 
@@ -21,7 +21,7 @@
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
 
 > *"Great products need great teams. I build the teams."*
-</div>
+</p>
 
 ---
 
