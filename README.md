@@ -21,6 +21,7 @@
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
 
 > *"Great products need great teams. I build the teams."*
+
 </p>
 
 ---
