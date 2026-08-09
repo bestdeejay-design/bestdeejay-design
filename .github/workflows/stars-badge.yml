@@ -22,8 +22,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Commit updated badge (if changed)
+      - name: Commit updated badges (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update total stars badge"
-          file_pattern: assets/badge-stars.svg
+          commit_message: "chore: update profile badges"
+          file_pattern: assets/badge-*.svg

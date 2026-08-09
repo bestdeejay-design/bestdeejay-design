@@ -15,9 +15,21 @@ import os
 import sys
 import urllib.request
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 USER = os.environ.get("GITHUB_USER", "bestdeejay-design")
 TOKEN = os.environ.get("GH_TOKEN", "")
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "badge-stars.svg")
+
+ICONS = {
+    "axiiom": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0IiByeD0iMiIgc3Ryb2tlPSIjRDRBNTc0IiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iLjQ1IiBmaWxsPSJub25lIi8+PHJlY3QgeD0iMjAiIHk9IjIiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjIiIHN0cm9rZT0iI0Q0QTU3NCIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9Ii40NSIgZmlsbD0ibm9uZSIvPjxyZWN0IHg9IjIiIHk9IjIwIiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHJ4PSIyIiBzdHJva2U9IiNENEE1NzQiIHN0cm9rZS13aWR0aD0iMS41IiBvcGFjaXR5PSIuNDUiIGZpbGw9Im5vbmUiLz48cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjIiIGZpbGw9IiNENEE1NzQiLz48L3N2Zz4=",
+    "lovii": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRDRBNTc0IiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik0xMiAzYTkgOSAwIDEgMCAwIDE4IDkgOSAwIDAgMCAwLTE4eiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0Q0QTU3NCIgc3Ryb2tlLXdpZHRoPSIzLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTcuOCAxMi40bDIuOCAyLjkgNS42LTYiLz48L3N2Zz4=",
+    "stars": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRDRBNTc0IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+",
+}
+
+OUTS = {
+    "axiiom": ("AXIIOM", "CEO"),
+    "lovii": ("LOVII", "FOUNDER"),
+    "stars": ("Total stars", "??"),
+}
 
 
 def fetch_page(page: int) -> list:
@@ -49,29 +61,43 @@ def fmt(n: int) -> str:
     return str(n)
 
 
-def render_svg(label: str, value: str) -> str:
-    # Stamped badge — layout tuned to pixel precision (see assets/badge-stars.svg).
+def render_svg(label: str, value: str, icon: str) -> str:
     label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
-    pad = 12
-    char_w_label = 8.0
-    icon_w = 22
-    icon_y = 1.0
-    pad_value = 10
-    char_w_value = 8.0
-    lw = pad + icon_w + len(label) * char_w_label + pad
-    vw = pad_value + len(value) * char_w_value + pad_value
-    w = lw + vw
-    h = 28
+    h, icon_w, icon_h = 32, 14, 14
+    pad_l, gap, pad_r = 14, 10, 14
+    char_w = 8.8
+    text_w = (len(label) + 1 + len(value)) * char_w
+    w = int(pad_l + icon_w + gap + text_w + pad_r)
+    icon_y = (h - icon_h) / 2
+    text_x = pad_l + icon_w + gap
+    text_y = h / 2 + 4.9
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}: {value}">
-  <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
-  <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
-  <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate({pad},{icon_y}) translate(10.5,12.05) scale(1.5) translate(-10.5,-12.05)">
-    <path d="M5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B313C"/><stop offset="1" stop-color="#171C23"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D4A574" stop-opacity="0.30"/><stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="clip"><rect width="{w}" height="{h}" rx="10"/></clipPath>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect width="{w}" height="{h}" rx="10" fill="url(#bg)"/>
+    <g clip-path="url(#clip)">
+      <circle cx="{pad_l + icon_w / 2}" cy="{h / 2}" r="13" fill="url(#glow)"/>
+      <rect width="{w}" height="14" fill="url(#shine)"/>
+    </g>
+    <rect width="{w}" height="{h}" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <image x="{pad_l}" y="{icon_y}" width="{icon_w}" height="{icon_h}" href="{icon}"/>
+    <text x="{text_x}" y="{text_y}" fill="#FFFFFF" {font} font-size="14" font-weight="700" letter-spacing="0.6">{label}<tspan fill="#D4A574" font-weight="800" letter-spacing="0"> {value}</tspan></text>
   </g>
-  <text x="{pad + icon_w}" y="18.0" fill="#FFFFFF" {font} font-size="13" font-weight="700">{label}</text>
-  <text x="{lw + pad_value}" y="20.0" fill="#FFFFFF" {font} font-size="16" font-weight="800">{value}</text>
 </svg>
 '''
 
@@ -82,11 +108,14 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001 - badge should degrade gracefully
         print(f"error: {e}", file=sys.stderr)
         return 1
-    svg = render_svg("total stars", fmt(stars))
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print(f"stars={stars} -> {OUT}")
+    os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
+    for name, (label, _value) in OUTS.items():
+        value = fmt(stars) if name == "stars" else _value
+        svg = render_svg(label, value, ICONS[name])
+        out = os.path.join(ROOT, "assets", f"badge-{name}.svg")
+        with open(out, "w", encoding="utf-8") as f:
+            f.write(svg)
+        print(f"stars={stars} -> {out}")
     return 0
 
 
