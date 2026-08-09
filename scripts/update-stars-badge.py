@@ -50,27 +50,28 @@ def fmt(n: int) -> str:
 
 
 def render_svg(label: str, value: str) -> str:
-    # Stamped badge: fixed 12px padding, width auto-fits, icon vertically centered.
-    # Same layout as badge-axiiom.svg / badge-lovii.svg (icon + label | value).
+    # Stamped badge — layout tuned to pixel precision (see assets/badge-stars.svg).
     label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
     pad = 12
-    char_w = 8.0
+    char_w_label = 8.0
     icon_w = 22
-    icon_y = 2.0  # star icon bbox ~7.2-16.9 -> center 14
-    lw = pad + icon_w + len(label) * char_w + pad
-    vw = pad + len(value) * char_w + pad
+    icon_y = 1.0
+    pad_value = 10
+    char_w_value = 8.0
+    lw = pad + icon_w + len(label) * char_w_label + pad
+    vw = pad_value + len(value) * char_w_value + pad_value
     w = lw + vw
     h = 28
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}: {value}">
   <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
   <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
   <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate({pad},{icon_y}) translate(10.5,12.05) scale(1.3) translate(-10.5,-12.05)">
-    <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
+  <g fill="#D4A574" transform="translate({pad},{icon_y}) translate(10.5,12.05) scale(1.5) translate(-10.5,-12.05)">
+    <path d="M5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
   </g>
-  <text x="{pad + icon_w}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700">{label}</text>
-  <text x="{lw + pad}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700">{value}</text>
+  <text x="{pad + icon_w}" y="18.0" fill="#FFFFFF" {font} font-size="13" font-weight="700">{label}</text>
+  <text x="{lw + pad_value}" y="20.0" fill="#FFFFFF" {font} font-size="16" font-weight="800">{value}</text>
 </svg>
 '''
 
