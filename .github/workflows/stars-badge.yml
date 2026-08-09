@@ -1,0 +1,29 @@
+name: Stars Badge
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # every day 06:00 UTC
+  workflow_dispatch: {}   # manual run
+  push:
+    branches: [main]
+    paths: ["scripts/update-stars-badge.py"]
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count total stars & render badge
+        run: python3 scripts/update-stars-badge.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Commit updated badge (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update total stars badge"
+          file_pattern: assets/total-stars.svg
