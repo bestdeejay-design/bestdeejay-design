@@ -57,7 +57,7 @@ def render_svg(label: str, value: str) -> str:
     pad = 12
     char_w = 8.0
     icon_w = 22
-    icon_y = 3.2  # star icon bbox ~7.2-14.4 -> center 14
+    icon_y = 2.0  # star icon bbox ~7.2-16.9 -> center 14
     lw = pad + icon_w + len(label) * char_w + pad
     vw = pad + len(value) * char_w + pad
     w = lw + vw
