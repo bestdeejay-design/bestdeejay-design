@@ -134,8 +134,7 @@ St. Petersburg, Russia
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=bestdeejay-design.bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square)
 
-> *"Great teams build great products. I build the teams that build them."*
-<div align="center" style="max-width: 2160px; margin: 0 auto;">
+> *"Great teams build great products. I build the teams that build them."* <div align="center" style="max-width: 2160px; margin: 0 auto;">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer)
 
