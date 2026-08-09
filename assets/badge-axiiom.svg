@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="142.0" height="28" viewBox="0 0 142.0 28" role="img" aria-label="AXIIOM: CEO">
-  <rect width="142.0" height="28" rx="4" fill="#555555"/>
-  <rect x="94.0" width="48.0" height="28" rx="4" fill="#D4A574"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="138.0" height="28" viewBox="0 0 138.0 28" role="img" aria-label="AXIIOM: CEO">
+  <rect width="138.0" height="28" rx="4" fill="#555555"/>
+  <rect x="94.0" width="44.0" height="28" rx="4" fill="#D4A574"/>
   <path d="M94.0 0H100.0V28H94.0Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate(12,6.0)"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z" fill="none" stroke="#D4A574" stroke-width="1.3"/><path d="M1.5 8h13M8 1.5c2.4 2 2.4 11 0 13M8 1.5c-2.4 2-2.4 11 0 13" fill="none" stroke="#D4A574" stroke-width="1.3"/></g>
-  <text x="34" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700">AXIIOM</text>
-  <text x="106.0" y="18.5" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700">CEO</text>
+  <g fill="#D4A574" transform="translate(12,5.0)"><g transform="translate(8,8) scale(1.1) translate(-8,-8)"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z" fill="none" stroke="#D4A574" stroke-width="1.3"/><path d="M1.5 8h13M8 1.5c2.4 2 2.4 11 0 13M8 1.5c-2.4 2-2.4 11 0 13" fill="none" stroke="#D4A574" stroke-width="1.3"/></g></g>
+  <text x="34" y="18.0" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700">AXIIOM</text>
+  <text x="104.0" y="20.0" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800">CEO</text>
 </svg>
