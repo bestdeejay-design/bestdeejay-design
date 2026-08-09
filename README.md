@@ -14,18 +14,16 @@
 
 ---
 
-<p align="center">
+<div align="center" style="margin: 0 auto;">
 
 [![AXIIOM](https://img.shields.io/badge/AXIIOM-CEO-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white)](https://axiiom.ru)
 [![LOVII](https://img.shields.io/badge/LOVII-FOUNDER-D4A574?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lovii.ru)
 
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
-
-</p><p align="center">
   
 > *"Great products need great teams. I build the teams."*
 
-</p>
+</div>
 
 ---
 
