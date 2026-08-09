@@ -22,6 +22,7 @@
 
 > *"Great products need great teams. I build the teams."*
 </div>
+
 ---
 
 ## 🛠 Tech Stack
