@@ -19,9 +19,9 @@
 
 <div align="center" style="margin: 0 auto;">
 
-<a href="https://axiiom.ru" target="_blank"><img src="assets/axiiom-badge.svg" alt="AXIIOM" /></a>
-<a href="https://lovii.ru" target="_blank"><img src="assets/lovii-badge.svg" alt="LOVII" /></a>
-<a href="https://github.com/bestdeejay-design/"><img src="assets/total-stars.svg?v=2" alt="Total GitHub stars" /></a>
+<a href="https://axiiom.ru" target="_blank"><img src="assets/badge-axiiom.svg" alt="AXIIOM" /></a>
+<a href="https://lovii.ru" target="_blank"><img src="assets/badge-lovii.svg" alt="LOVII" /></a>
+<a href="https://github.com/bestdeejay-design/"><img src="assets/badge-stars.svg" alt="Total GitHub stars" /></a>
 
 **Founder / CDTO / IT-Director / CTO / CPO** · 20+ years in IT · St. Petersburg, Russia
   

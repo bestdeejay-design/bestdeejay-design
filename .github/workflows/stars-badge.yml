@@ -26,4 +26,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update total stars badge"
-          file_pattern: assets/total-stars.svg
+          file_pattern: assets/badge-stars.svg

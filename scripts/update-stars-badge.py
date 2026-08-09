@@ -17,7 +17,7 @@ import urllib.request
 
 USER = os.environ.get("GITHUB_USER", "bestdeejay-design")
 TOKEN = os.environ.get("GH_TOKEN", "")
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "total-stars.svg")
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "badge-stars.svg")
 
 
 def fetch_page(page: int) -> list:
@@ -50,26 +50,22 @@ def fmt(n: int) -> str:
 
 
 def render_svg(label: str, value: str) -> str:
-    # shields.io "for-the-badge" style: dark label + gold value (matches
-    # the AXIIOM / LOVII badge row in the profile README)
+    # Series badge: fixed 150x34, dark gradient card, gold rim, star icon + label/value.
+    # Same layout as badge-axiiom.svg / badge-lovii.svg — one consistent row.
     label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
-    pad = 14
-    char_w = 7.8  # avg width for 13px semibold uppercase
-    icon_w = 18   # room for the star icon in the label
-    lw = pad * 2 + len(label) * char_w + icon_w
-    vw = pad * 2 + len(value) * char_w
-    w = lw + vw
-    h = 28
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}: {value}">
-  <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
-  <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
-  <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
-  <g fill="#D4A574">
-    <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z" transform="translate(2.5 4.2) scale(0.9)"/>
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="{label}: {value}">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262C35"/><stop offset="1" stop-color="#191E26"/>
+    </linearGradient>
+  </defs>
+  <rect width="150" height="34" rx="9" fill="url(#b)" stroke="#D4A574" stroke-opacity="0.35" stroke-width="1"/>
+  <g fill="#D4A574" transform="translate(12,9.5)">
+    <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
   </g>
-  <text x="{pad + icon_w}" y="19" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5">{label}</text>
-  <text x="{lw + vw / 2}" y="19" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5" text-anchor="middle">{value}</text>
+  <text x="38" y="13.5" fill="#98A0AB" {font} font-size="9" font-weight="600" letter-spacing="1.2">{label}</text>
+  <text x="38" y="26" fill="#FFFFFF" {font} font-size="14" font-weight="700">{value}</text>
 </svg>
 '''
 
