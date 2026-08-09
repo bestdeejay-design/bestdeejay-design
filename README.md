@@ -1,9 +1,9 @@
-<div align="center" style="max-width: 2160px; margin: 0 auto;">
+<p align="center">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&height=290&color=0:81D8D0,100:F64A8A&text=Sergey%20Kuzyukov&desc=Founder%20LOVII&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descSize=24&descAlignY=60)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=D4A574&center=true&vCenter=true&width=800&lines=CEO+%26+CDTO+%26+CTO+%26+CPO;FinTech+Architect+%26+Banking;20%2B+years+in+IT;Digital+Transformation+End-to-End;Building+from+Zero)](https://git.io/typing-svg)
 
-<p align="center">
+
 <a href="https://lovii.ru" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="img/lovii-logo-dark.svg">
@@ -133,7 +133,7 @@ St. Petersburg, Russia
 
 *CEO @ [AXIIOM](https://github.com/axiiom-ru) — Fintech Infrastructure & Custom IT Solutions for Business*
 
-<img src="https://api.visitorbadge.io/api/visitors?path=YOUR_USERNAME&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
+<img src="https://api.visitorbadge.io/api/visitors?path=bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer" alt="footer" />
