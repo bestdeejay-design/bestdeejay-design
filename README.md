@@ -131,13 +131,19 @@ St. Petersburg, Russia
 ---
 
 *CEO @ [AXIIOM](https://github.com/axiiom-ru) — Fintech Infrastructure & Custom IT Solutions for Business*
+<p align="center">
+  <img src="https://api.visitorbadge.io/api/visitors?path=YOUR_USERNAME&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
+</p>
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=bestdeejay-design.bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square)
+<br/>
 
-<div align="center" style="max-width: 2160px; margin: 0 auto;">
+<p align="center">
+  <em>"Great teams build great products. I build the teams that build them."</em>
+</p>
 
-> *"Great teams build great products. I build the teams that build them."*
+<br/>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer" alt="footer" />
+</p>
 
-</div>
