@@ -122,7 +122,7 @@ Built the country's first dynamic modular mobile ad network (REST API, SDK); mob
 
 I'm open to **CDTO / IT-Director / CTO / CPO** roles — full-time or project-based. If you're building (or fixing) a fintech or highload platform and need someone who speaks both architecture and regulation, let's talk.
 
-**From 400k ₽** · Relocation: partial · Business trips: yes
+Relocation: partial · Business trips: yes
 
 [![Email](https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bestdeejay@ya.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bestdeejay)
