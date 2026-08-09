@@ -1,4 +1,4 @@
-<div align="center" style="max-width: 2160; margin: 0 auto;">
+<div align="center" style="margin: 0 auto;">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&height=290&color=0:81D8D0,100:F64A8A&text=Sergey%20Kuzyukov&desc=Founder%20LOVII&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descSize=24&descAlignY=60)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=D4A574&center=true&vCenter=true&width=800&lines=CEO+%26+CDTO+%26+CTO+%26+CPO;FinTech+Architect+%26+Banking;20%2B+years+in+IT;Digital+Transformation+End-to-End;Building+from+Zero)](https://git.io/typing-svg)
