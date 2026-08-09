@@ -138,5 +138,5 @@ St. Petersburg, Russia
 <img src="https://api.visitorbadge.io/api/visitors?path=bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:F64A8A,100:0ABAB5&text=@bestdeejay&fontColor=FFFFFF&fontSize=21&section=footer&fontAlignY=80" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:F64A8A,100:0ABAB5&text=@bestdeejay&fontColor=FFFFFF&fontSize=21&section=footer&fontAlignY=80&animation=twinkling" alt="footer" />
 </p>
