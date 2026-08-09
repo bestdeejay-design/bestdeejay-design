@@ -138,6 +138,5 @@ St. Petersburg, Russia
 <img src="https://api.visitorbadge.io/api/visitors?path=bestdeejay-design&label=Visitors&countColor=%23D4A574&style=flat-square" alt="Visitors" />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:81D8D0,100:F64A8A&height=120&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ABAB5,50:FFFFFF,100:F64A8A&height=120&section=footer&fontColor=ffffff" alt="footer" />
 </p>
-
