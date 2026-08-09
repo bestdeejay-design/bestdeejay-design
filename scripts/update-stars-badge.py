@@ -50,21 +50,26 @@ def fmt(n: int) -> str:
 
 
 def render_svg(label: str, value: str) -> str:
-    # shields.io-like badge: dark label + colored value
+    # shields.io "for-the-badge" style: dark label + gold value (matches
+    # the AXIIOM / LOVII badge row in the profile README)
+    label = label.upper()
     font = 'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"'
-    lw = 18 + len(label) * 7
-    vw = 18 + len(value) * 7
+    pad = 14
+    char_w = 7.8  # avg width for 13px semibold uppercase
+    icon_w = 18   # room for the star icon in the label
+    lw = pad * 2 + len(label) * char_w + icon_w
+    vw = pad * 2 + len(value) * char_w
     w = lw + vw
     h = 28
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}: {value}">
-  <rect width="{w}" height="{h}" rx="6" fill="#22272e"/>
-  <rect x="{lw}" width="{vw}" height="{h}" rx="6" fill="#0ABAB5"/>
-  <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#0ABAB5"/>
+  <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
+  <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
+  <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
   <g fill="#D4A574">
     <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z" transform="translate(2.5 4.2) scale(0.9)"/>
   </g>
-  <text x="26" y="18" fill="#FFFFFF" {font} font-size="12" font-weight="600">{label}</text>
-  <text x="{lw + vw / 2}" y="18" fill="#FFFFFF" {font} font-size="12" font-weight="700" text-anchor="middle">{value}</text>
+  <text x="{pad + icon_w}" y="19" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5">{label}</text>
+  <text x="{lw + vw / 2}" y="19" fill="#FFFFFF" {font} font-size="13" font-weight="700" letter-spacing="0.5" text-anchor="middle">{value}</text>
 </svg>
 '''
 
