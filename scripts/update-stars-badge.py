@@ -66,7 +66,7 @@ def render_svg(label: str, value: str) -> str:
   <rect width="{w}" height="{h}" rx="4" fill="#555555"/>
   <rect x="{lw}" width="{vw}" height="{h}" rx="4" fill="#D4A574"/>
   <path d="M{lw} 0H{lw+6}V{h}H{lw}Z" fill="#555555"/>
-  <g fill="#D4A574" transform="translate({pad},{icon_y})">
+  <g fill="#D4A574" transform="translate({pad},{icon_y}) translate(10.5,12.05) scale(1.3) translate(-10.5,-12.05)">
     <path d="M10.5 7.2l1.6 3.2 3.5.5-2.5 2.5.6 3.5-3.2-1.7-3.2 1.7.6-3.5-2.5-2.5 3.5-.5z"/>
   </g>
   <text x="{pad + icon_w}" y="18.5" fill="#FFFFFF" {font} font-size="13" font-weight="700">{label}</text>
