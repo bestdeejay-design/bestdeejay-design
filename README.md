@@ -43,8 +43,8 @@ Led teams of up to 80 people; built engineering and product processes from scrat
 
 | Achievement |
 |:---|
-| Scaled an IT company **5 → 45 engineers**, grew **8** team leads — IT-Park / Digital Lab (2018–2025) |
-| Raised project financing from **Sberbank — ₽2.8B and ₽4.1B (twice)** for a major banking project; owned the full path from first call to the bank's commercial offer |
+| Scaled an IT company **5 → 45 engineers**, grew **8** team leads — IT-Park / Digital Lab (2018–2024) |
+| Raised project financing from **Sberbank three times — ₽2.8B to ₽4.1B** for banking and development projects; owned the full path from first call to the bank's commercial offer |
 | Built a **fintech loyalty operator + B2B marketplace from zero** (AXIIOM) with full CB RF compliance |
 | Founded **MOBIADS** — first dynamic modular mobile ad network in Russia; Runet Prize 2011 nominee; business acquired |
 | Led carrier subscription products — **150k+ subscribers**, team 60+ (ZED / Beeline.Kiosk) |
@@ -73,16 +73,16 @@ Led teams of up to 80 people; built engineering and product processes from scrat
 - Full fintech compliance (BPA, 161/115/54/152-ФЗ; SBP / KKT / OFD / FNS)
 - Integrations with banks, telecom, retail, logistics
 
-Also building **LOVII** — white-label SaaS for local marketplaces (micro & small business). *Status: pre-MVP, pre-revenue — no real transactions yet.*
+Also building **LOVII** — white-label SaaS for local marketplaces (micro & small business). *Status: pre-release — release and security in progress, then payments/receipts, payouts and partner onboarding; no transactions yet.*
 
 ---
 
 ## Case studies
 
-**Scaled an IT function 5 → 45 engineers** — IT-Park / Digital Lab (2018–2025)
+**Scaled an IT function 5 → 45 engineers** — IT-Park / Digital Lab (2018–2024)
 Built the holding's IT from zero: dev/test/release processes, Agile/Scrum, RBAC/LDAP/Harbor, CI/CD. Grew 8 team leads from within; cut ops costs 20%.
 
-**₽2.8B + ₽4.1B project financing from Sberbank (twice)** — owned the full path from first call to the bank's commercial offer for a major banking project; led the technical and compliance work that made the deal viable.
+**₽2.8B–₽4.1B project financing from Sberbank (three times)** — owned the full path from first call to the bank's commercial offer for banking and development projects; led the technical and compliance work that made the deals viable.
 
 **Fintech from zero, fully compliant** — AXIIOM (2024→)
 Launched a loyalty-points operator + B2B marketplace on event-driven microservices; BPA model, 161/115/54/152-ФЗ, SBP / KKT / OFD / FNS; integrations with banks, telecom, retail, logistics.
@@ -126,7 +126,9 @@ Built the country's first dynamic modular mobile ad network (REST API, SDK); mob
 
 I'm open to **CDTO / IT-Director / CTO / CPO** roles — full-time or project-based. If you're building (or fixing) a fintech or highload platform and need someone who speaks both architecture and regulation, let's talk.
 
-Relocation: partial · Business trips: yes
+📄 Resume (CTO / CDTO / CPO versions + full master file): [bestdeejay-design/resume](https://github.com/bestdeejay-design/resume) · online: [bestdeejay-design.github.io/resume](https://bestdeejay-design.github.io/resume/)
+
+Relocation: partial (within Russia) · Business trips: yes
 
 [![Email](https://img.shields.io/badge/Email-bestdeejay@ya.ru-D4A574?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bestdeejay@ya.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@bestdeejay-D4A574?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bestdeejay)
