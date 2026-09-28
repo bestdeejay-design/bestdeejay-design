@@ -44,7 +44,7 @@ Led teams of up to 80 people; built engineering and product processes from scrat
 | Achievement |
 |:---|
 | Scaled an IT company **5 → 45 engineers**, grew **8** team leads — IT-Park / Digital Lab (2018–2024) |
-| Raised project financing from **Sberbank three times — ₽2.8B to ₽4.1B** for banking and development projects; owned the full path from first call to the bank's commercial offer |
+| Raised project financing from **Sberbank three times (2023–2025) — ₽2.8B to ₽4.1B** for banking and development projects; owned the full path from first call to the bank's commercial offer |
 | Built a **fintech loyalty operator + B2B marketplace from zero** (AXIIOM) with full CB RF compliance |
 | Founded **MOBIADS** — first dynamic modular mobile ad network in Russia; Runet Prize 2011 nominee; business acquired |
 | Led carrier subscription products — **150k+ subscribers**, team 60+ (ZED / Beeline.Kiosk) |
@@ -82,7 +82,7 @@ Also building **LOVII** — white-label SaaS for local marketplaces (micro & sma
 **Scaled an IT function 5 → 45 engineers** — IT-Park / Digital Lab (2018–2024)
 Built the holding's IT from zero: dev/test/release processes, Agile/Scrum, RBAC/LDAP/Harbor, CI/CD. Grew 8 team leads from within; cut ops costs 20%.
 
-**₽2.8B–₽4.1B project financing from Sberbank (three times)** — owned the full path from first call to the bank's commercial offer for banking and development projects; led the technical and compliance work that made the deals viable.
+**₽2.8B–₽4.1B project financing from Sberbank (three times, 2023–2025)** — owned the full path from first call to the bank's commercial offer for banking and development projects; led the technical and compliance work that made the deals viable.
 
 **Fintech from zero, fully compliant** — AXIIOM (2024→)
 Launched a loyalty-points operator + B2B marketplace on event-driven microservices; BPA model, 161/115/54/152-ФЗ, SBP / KKT / OFD / FNS; integrations with banks, telecom, retail, logistics.
