@@ -96,6 +96,15 @@ Built the country's first dynamic modular mobile ad network (REST API, SDK); mob
 
 58 public repositories with source and 17 private ones shown by name. 🔒 marks repositories whose source stays closed: the name and what it does, no link.
 
+### 🏢 Organisations
+
+Two organisation accounts hold the product and client work that this profile points to:
+
+| Organisation | What it holds | Repos | Public |
+|:--|:--|--:|--:|
+| [**rucorp**](https://github.com/rucorp) | RuCorp — digital infrastructure for micro and small business: AXIIOM and ATMOSFERA sites, payment tooling, BRIIX. | 19 | 12 |
+| [**lovii-tech**](https://github.com/lovii-tech) | LOVII TECH — product organisation of the platform: commerce core, partner cabinet, admin panel, customer app, security and infrastructure. | 11 | 1 |
+
 ### 🛍 LOVII — platform for neighbourhood marketplaces
 
 White-label SaaS for launching local marketplaces: a district, a food court, a shopping mall or a city area gets its own audience, catalog and courier network — all running on one shared core. Merchants list goods and services, customers see **what is actually in stock nearby and how many minutes it is on foot**, delivery lands in 15–30 minutes. Status: MVP, mini-pilot completed in Saint Petersburg.
