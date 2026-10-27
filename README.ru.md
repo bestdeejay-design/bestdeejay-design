@@ -114,7 +114,7 @@ White-label SaaS для запуска локальных маркетплейс
 | [**lovii-design**](https://github.com/bestdeejay-design/lovii-design) | Дизайн-система «Лови»: токены, компоненты, темизация, правила Do/Don't и чек-листы приёмки — написана и для людей, и для ИИ-агентов, поставляется одним CSS-файлом. | HTML · CSS · Design tokens |
 | 🔒 **lovii_docs** | Корпус документации платформы: 14 модулей as-is по коду, канон (BRD, PRD, архитектура, модель данных, спецификация API), разбор БД на 85 таблиц и галерея всех 60 экранов приложения. | Markdown · HTML |
 | [**lovii-crm**](https://github.com/lovii-tech/lovii-crm) · [сайт](https://lovii-tech.github.io/lovii-crm/) | Ресторанная CRM/ERP: от заказа и чека до кухни, списаний и курьеров. Исследование рынка, спецификации по 11 доменам, франч-бук и юридический минимум для запуска. | MkDocs Material · GitHub Pages |
-| [**platforma**](https://github.com/rucorp/platforma) | Корпоративный сайт операционной компании инфраструктуры локальной экономики: продукты, решения, контакты. | HTML · CSS · JS |
+| [**platforma**](https://github.com/rucorp/platforma) · [сайт](https://aoplatforma.ru/) | Корпоративный сайт операционной компании инфраструктуры локальной экономики: продукты, решения, контакты. | HTML · CSS · JS |
 
 </details>
 
@@ -126,7 +126,7 @@ White-label SaaS для запуска локальных маркетплейс
 
 | Репозиторий | Что это | Стек |
 |:--|:--|:--|
-| [**fonotext**](https://github.com/bestdeejay-design/fonotext) · [сайт](https://bestdeejay-design.github.io/fonotext/) | Продуктовый репозиторий: архитектура, выбор моделей ASR/LLM, расчёт мощностей, спецификация API, стенд POC. | Python |
+| [**fonotext**](https://github.com/bestdeejay-design/fonotext) · [сайт](https://fonotext.ru/) | Продуктовый репозиторий: архитектура, выбор моделей ASR/LLM, расчёт мощностей, спецификация API, стенд POC. | Python |
 | 🔒 **fonotext-server** | Контур развёртывания стенда: раскладка серверов, требования к железу, границы публичных и приватных документов. | Python · Markdown |
 
 ---
@@ -226,14 +226,14 @@ White-label SaaS для запуска локальных маркетплейс
 | [**axiiom**](https://github.com/rucorp/axiiom) · [сайт](https://axiiom.ru/) | Корпоративный сайт AXIIOM — разработка сайтов и мобильных приложений, UI/UX, финтех-решения. | HTML |
 | [**arental**](https://github.com/rucorp/arental) · [сайт](http://arental.ru/) | АТМОСФЕРА — digital-агентство полного цикла: лидогенерация, интеграции, автоматизация маркетинга. | HTML |
 | [**fermaruna**](https://github.com/bestdeejay-design/fermaruna) · [сайт](https://fermaruna.ru) | «Ферма Рунская» — органическая ферма в верховьях Волги: картофель, овощи, фермерская лавка. | HTML |
-| [**ksu**](https://github.com/bestdeejay-design/ksu) | Портфолио графического дизайнера: айдентика, брендинг, типографика, UI/UX, иллюстрация, упаковка. 16 проектов, PWA, EN/RU. | HTML · CSS · PWA |
-| [**paffo**](https://github.com/rucorp/paffo) | Ателье верхней одежды — итальянская шерсть, кашемир, кожа; две примерки, пошив 21 день. | HTML |
+| [**ksu**](https://github.com/bestdeejay-design/ksu) · [сайт](https://dajet.ru/) | Портфолио графического дизайнера: айдентика, брендинг, типографика, UI/UX, иллюстрация, упаковка. 16 проектов, PWA, EN/RU. | HTML · CSS · PWA |
+| [**paffo**](https://github.com/rucorp/paffo) · [сайт](https://paffo.ru/) | Ателье верхней одежды — итальянская шерсть, кашемир, кожа; две примерки, пошив 21 день. | HTML |
 | [**neo-consulting**](https://github.com/bestdeejay-design/neo-consulting) · [сайт](https://bestdeejay-design.github.io/neo-consulting/) | Лендинг бухгалтерского аутсорсинга: 16 секций, SEO, Санкт-Петербург. | HTML · GitHub Pages |
-| [**semyazdrav.ru**](https://github.com/bestdeejay-design/semyazdrav.ru) | Лендинг по уходу за растениями плюс SEO-база знаний о подкормке комнатных растений. | HTML |
+| [**semyazdrav.ru**](https://github.com/bestdeejay-design/semyazdrav.ru) · [сайт](https://semyazdrav.ru/) | Лендинг по уходу за растениями плюс SEO-база знаний о подкормке комнатных растений. | HTML |
 | [**SS-BMW-site**](https://github.com/bestdeejay-design/SS-BMW-site) | Одностраничный сайт специализированного сервиса BMW: галерея, услуги, форма заявки. | HTML · CSS · JS |
 | [**spbgti**](https://github.com/bestdeejay-design/spbgti) | Сайт СПбГТИ на Eleventy: история, факультеты, абитуриентам. | HTML · Eleventy |
-| 🔒 **archive-spbgti** | Исторический архив СПбГТИ: Directus CMS плюс галерея — archive.ti200.ru. | HTML · Directus |
-| [**univerid**](https://github.com/bestdeejay-design/univerid) | UniverID — цифровая экосистема университета: зачётка, расписание, чат с деканатом. 2★ | HTML |
+| 🔒 **archive-spbgti** · [сайт](https://archive.ti200.ru/) | Исторический архив СПбГТИ: Directus CMS плюс галерея — archive.ti200.ru. | HTML · Directus |
+| [**univerid**](https://github.com/bestdeejay-design/univerid) · [сайт](https://univerid.ru/) | UniverID — цифровая экосистема университета: зачётка, расписание, чат с деканатом. 2★ | HTML |
 
 </details>
 
@@ -281,7 +281,7 @@ White-label SaaS для запуска локальных маркетплейс
 | [**mvno**](https://github.com/bestdeejay-design/mvno) | eSIM Travel — компаньон путешественника: eSIM, туры, отели, авиабилеты. | JavaScript |
 | [**ambar**](https://github.com/bestdeejay-design/ambar) | AMBAR — инвестиционный лендинг фуд-хаба с кухнями и IT-инфраструктурой. | HTML |
 | [**ishotgirls**](https://github.com/bestdeejay-design/ishotgirls) | ISHOT — журнал тренировок: стрики, личные рекорды, экипировка. | HTML |
-| [**mobiap**](https://github.com/bestdeejay-design/mobiap) | MOBIAP — англоязычный лендинг финтех-платформ: лояльность, платежи, PCI DSS. | HTML |
+| [**mobiap**](https://github.com/bestdeejay-design/mobiap) · [сайт](https://mobiap.com/) | MOBIAP — англоязычный лендинг финтех-платформ: лояльность, платежи, PCI DSS. | HTML |
 | 🔒 **pizzaloviiru** | Лендинг пиццерии с меню на JSON и пайплайном картинок. | JavaScript |
 
 </details>
@@ -299,7 +299,7 @@ White-label SaaS для запуска локальных маркетплейс
 
 | Репозиторий | Что это | Стек |
 |:--|:--|:--|
-| [**briix**](https://github.com/rucorp/briix) | BRIIX — ИИ-маркетолог: изучает сайт компании, собирает профиль бренда (Brand DNA), генерирует контент-план и посты в фирменном стиле, публикует по расписанию и собирает аналитику. Публичный сайт продукта с презентацией на 20 слайдов и калькулятором юнит-экономики. | HTML · GitHub Pages |
+| [**briix**](https://github.com/rucorp/briix) · [сайт](https://briix.ru/) | BRIIX — ИИ-маркетолог: изучает сайт компании, собирает профиль бренда (Brand DNA), генерирует контент-план и посты в фирменном стиле, публикует по расписанию и собирает аналитику. Публичный сайт продукта с презентацией на 20 слайдов и калькулятором юнит-экономики. | HTML · GitHub Pages |
 | 🔒 **briix-internal** | Приватный контур BRIIX: канонический бизнес-документ, полное ТЗ, финансовая модель, архитектура, риски. | Markdown |
 | [**personal-os**](https://github.com/bestdeejay-design/personal-os) | Личный операционный центр: заметки, канбан, календарь, файлы, профили, RAG-агент — всё локально. | TypeScript |
 | [**pmos**](https://github.com/bestdeejay-design/pmos) | Event-driven монорепозиторий микросервисов: 16 CRUD-сервисов, NATS JetStream, схема на сервис, 5 саг, строгий TypeScript. | TypeScript · NATS · PostgreSQL |

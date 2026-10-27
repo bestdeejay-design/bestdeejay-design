@@ -141,7 +141,7 @@ Eleven repositories cover the product end to end: the public white paper and a w
 | [**lovii-design**](https://github.com/bestdeejay-design/lovii-design) | Design system «Лови»: tokens, components, theming, Do/Don't rules and acceptance checklists — written for people and AI agents alike, shipped as one CSS file. | HTML · CSS · Design tokens |
 | 🔒 **lovii_docs** | Documentation corpus of the platform: 14 modules described as-is against the code, the canon (BRD, PRD, architecture, data model, API spec), analysis of the 85-table database and a gallery of all 60 app screens. | Markdown · HTML |
 | [**lovii-crm**](https://github.com/lovii-tech/lovii-crm) · [live](https://lovii-tech.github.io/lovii-crm/) | Restaurant CRM/ERP: from order and receipt to kitchen, product write-offs and couriers. Market research, specifications for 11 domains, franchise book and the legal minimum for launch. | MkDocs Material · GitHub Pages |
-| [**platforma**](https://github.com/rucorp/platforma) | Corporate site of the operating company behind the local-economy infrastructure: products, solutions, contacts. | HTML · CSS · JS |
+| [**platforma**](https://github.com/rucorp/platforma) · [live](https://aoplatforma.ru/) | Corporate site of the operating company behind the local-economy infrastructure: products, solutions, contacts. | HTML · CSS · JS |
 
 </details>
 
@@ -153,7 +153,7 @@ Turns call recordings into structured data: 100% coverage instead of the usual 3
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
-| [**fonotext**](https://github.com/bestdeejay-design/fonotext) · [live](https://bestdeejay-design.github.io/fonotext/) | Product repository: architecture, ASR/LLM model selection, capacity planning, API spec, POC stand. | Python |
+| [**fonotext**](https://github.com/bestdeejay-design/fonotext) · [live](https://fonotext.ru/) | Product repository: architecture, ASR/LLM model selection, capacity planning, API spec, POC stand. | Python |
 | 🔒 **fonotext-server** | Deployment contour of the stand: server layout, hardware rules, release boundaries between public and private docs. | Python · Markdown |
 
 ---
@@ -253,14 +253,14 @@ Sites that are live in production rather than sitting in a folder: the AXIIOM co
 | [**axiiom**](https://github.com/rucorp/axiiom) · [live](https://axiiom.ru/) | AXIIOM corporate site — web and mobile development, UI/UX, fintech solutions. | HTML |
 | [**arental**](https://github.com/rucorp/arental) · [live](http://arental.ru/) | ATMOSFERA — full-cycle digital agency: lead generation, integrations, marketing automation. | HTML |
 | [**fermaruna**](https://github.com/bestdeejay-design/fermaruna) · [live](https://fermaruna.ru) | Farm Runskaya — organic farm in the upper Volga: potatoes, vegetables, farm shop. | HTML |
-| [**ksu**](https://github.com/bestdeejay-design/ksu) | Portfolio of a graphic designer: identity, branding, typography, UI/UX, illustration, packaging. 16 projects, PWA, EN/RU. | HTML · CSS · PWA |
-| [**paffo**](https://github.com/rucorp/paffo) | Custom coat atelier — Italian wool, cashmere, leather; two fittings, 21-day production. | HTML |
+| [**ksu**](https://github.com/bestdeejay-design/ksu) · [live](https://dajet.ru/) | Portfolio of a graphic designer: identity, branding, typography, UI/UX, illustration, packaging. 16 projects, PWA, EN/RU. | HTML · CSS · PWA |
+| [**paffo**](https://github.com/rucorp/paffo) · [live](https://paffo.ru/) | Custom coat atelier — Italian wool, cashmere, leather; two fittings, 21-day production. | HTML |
 | [**neo-consulting**](https://github.com/bestdeejay-design/neo-consulting) · [live](https://bestdeejay-design.github.io/neo-consulting/) | Accounting outsourcing landing: 16 sections, SEO, Saint Petersburg. | HTML · GitHub Pages |
-| [**semyazdrav.ru**](https://github.com/bestdeejay-design/semyazdrav.ru) | Plant care landing plus an SEO knowledge base on feeding indoor plants. | HTML |
+| [**semyazdrav.ru**](https://github.com/bestdeejay-design/semyazdrav.ru) · [live](https://semyazdrav.ru/) | Plant care landing plus an SEO knowledge base on feeding indoor plants. | HTML |
 | [**SS-BMW-site**](https://github.com/bestdeejay-design/SS-BMW-site) | One-page site for a specialised BMW service: gallery, services, lead form. | HTML · CSS · JS |
 | [**spbgti**](https://github.com/bestdeejay-design/spbgti) | SPbGTI university site on Eleventy: history, departments, admissions. | HTML · Eleventy |
-| 🔒 **archive-spbgti** | Historical archive of SPbGTI: Directus CMS plus gallery — archive.ti200.ru. | HTML · Directus |
-| [**univerid**](https://github.com/bestdeejay-design/univerid) | UniverID — digital ecosystem for universities: gradebook, schedule, dean's office chat. 2★ | HTML |
+| 🔒 **archive-spbgti** · [live](https://archive.ti200.ru/) | Historical archive of SPbGTI: Directus CMS plus gallery — archive.ti200.ru. | HTML · Directus |
+| [**univerid**](https://github.com/bestdeejay-design/univerid) · [live](https://univerid.ru/) | UniverID — digital ecosystem for universities: gradebook, schedule, dean's office chat. 2★ | HTML |
 
 </details>
 
@@ -308,7 +308,7 @@ Interface prototypes built to prove a flow end-to-end before any backend exists:
 | [**mvno**](https://github.com/bestdeejay-design/mvno) | eSIM Travel — MVNO companion for travellers: eSIM, tours, hotels, flights. | JavaScript |
 | [**ambar**](https://github.com/bestdeejay-design/ambar) | AMBAR — investment landing for a food hub with kitchens and IT infrastructure. | HTML |
 | [**ishotgirls**](https://github.com/bestdeejay-design/ishotgirls) | ISHOT — training journal: streaks, personal records, gear. | HTML |
-| [**mobiap**](https://github.com/bestdeejay-design/mobiap) | MOBIAP — English-language landing for fintech platforms: loyalty, payments, PCI DSS. | HTML |
+| [**mobiap**](https://github.com/bestdeejay-design/mobiap) · [live](https://mobiap.com/) | MOBIAP — English-language landing for fintech platforms: loyalty, payments, PCI DSS. | HTML |
 | 🔒 **pizzaloviiru** | Pizzeria landing with a JSON-driven menu and image pipeline. | JavaScript |
 
 </details>
@@ -326,7 +326,7 @@ Beyond the main line: BRIIX and its private workspace, two takes on a personal o
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
-| [**briix**](https://github.com/rucorp/briix) | BRIIX — AI marketer: reads a company's site, builds a Brand DNA profile, generates a content plan and on-brand posts, publishes on schedule and reports analytics. Public product site with a 20-slide presentation and unit-economics calculator. | HTML · GitHub Pages |
+| [**briix**](https://github.com/rucorp/briix) · [live](https://briix.ru/) | BRIIX — AI marketer: reads a company's site, builds a Brand DNA profile, generates a content plan and on-brand posts, publishes on schedule and reports analytics. Public product site with a 20-slide presentation and unit-economics calculator. | HTML · GitHub Pages |
 | 🔒 **briix-internal** | Private workspace of BRIIX: canonical business document, full technical specification, financial model, architecture, risks. | Markdown |
 | [**personal-os**](https://github.com/bestdeejay-design/personal-os) | Personal operations centre: notes, kanban, calendar, files, profiles, RAG agent — all local. | TypeScript |
 | [**pmos**](https://github.com/bestdeejay-design/pmos) | Event-driven microservice monorepo: 16 CRUD services, NATS JetStream, schema-per-service, 5 sagas, strict TypeScript. | TypeScript · NATS · PostgreSQL |
