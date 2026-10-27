@@ -2,7 +2,7 @@ name: Stars Badge
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day 06:00 UTC
+    - cron: "0 6 */2 * *"   # every other day, 06:00 UTC (раз в 48 часов)
   workflow_dispatch: {}   # manual run
   push:
     branches: [main]
