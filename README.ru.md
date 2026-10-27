@@ -171,7 +171,7 @@ White-label SaaS для запуска локальных маркетплейс
 
 | Репозиторий | Что это | Стек |
 |:--|:--|:--|
-| [**alien-cosmic**](https://github.com/bestdeejay-design/alien-cosmic) · [играть](https://bestdeejay-design.github.io/alien-cosmic/) | RTS в браузере: кампания из 15 миссий, 3 фракции, строительство базы, туман войны, ИИ-противник. Чистый JavaScript, без сборки и зависимостей — 6★. | JavaScript · Canvas |
+| [**alien-cosmic**](https://github.com/bestdeejay-design/alien-cosmic) · [играть](https://ace.dj1.ru/) | RTS в браузере: кампания из 15 миссий, 3 фракции, строительство базы, туман войны, ИИ-противник. Чистый JavaScript, без сборки и зависимостей — 6★. | JavaScript · Canvas |
 | [**terran-rts**](https://github.com/bestdeejay-design/terran-rts) | RTS в духе StarCraft для GitHub Pages: рендер на Canvas и Web Audio, без зависимостей. | JavaScript · Canvas |
 | [**minigames**](https://github.com/bestdeejay-design/minigames) | Коллекция небольших браузерных игр — по одному файлу на игру, играется сразу. | JavaScript |
 | [**shimmer**](https://github.com/bestdeejay-design/shimmer) · [читать](https://bestdeejay-design.github.io/shimmer/) | «Мерцание» — философская фантастическая сага о сознании и циклах времени. Две книги, чтение онлайн — 6★. | JavaScript · HTML |

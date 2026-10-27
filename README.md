@@ -198,7 +198,7 @@ Things built for the joy of it, and a reminder that a browser needs no build ste
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
-| [**alien-cosmic**](https://github.com/bestdeejay-design/alien-cosmic) · [live](https://bestdeejay-design.github.io/alien-cosmic/) | Real-time strategy in the browser: 15-mission campaign, 3 factions, base building, fog of war, AI opponent. Pure JavaScript, no build step, no dependencies — 6★. | JavaScript · Canvas |
+| [**alien-cosmic**](https://github.com/bestdeejay-design/alien-cosmic) · [live](https://ace.dj1.ru/) | Real-time strategy in the browser: 15-mission campaign, 3 factions, base building, fog of war, AI opponent. Pure JavaScript, no build step, no dependencies — 6★. | JavaScript · Canvas |
 | [**terran-rts**](https://github.com/bestdeejay-design/terran-rts) | StarCraft-style RTS for GitHub Pages: Canvas rendering and Web Audio, zero dependencies. | JavaScript · Canvas |
 | [**minigames**](https://github.com/bestdeejay-design/minigames) | Collection of small browser games — one file each, playable immediately. | JavaScript |
 | [**shimmer**](https://github.com/bestdeejay-design/shimmer) · [live](https://bestdeejay-design.github.io/shimmer/) | Shimmer — a philosophical sci-fi saga about consciousness and cycles of time. Two books, read online — 6★. | JavaScript · HTML |
