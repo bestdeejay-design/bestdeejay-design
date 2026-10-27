@@ -314,7 +314,11 @@ White-label SaaS для запуска локальных маркетплейс
 
 ## Технологии
 
-Go · Node.js · Python · Java · PHP · Kubernetes · Docker · PostgreSQL · Apache Kafka · Linux · CI/CD
+**Языки** — PHP · JavaScript · TypeScript · Python · Swift · Vue
+
+**Бэкенд и данные** — Laravel · Node.js · PostgreSQL · Redis · Meilisearch
+
+**Инфраструктура** — Docker · Nginx · GitHub Actions · Ansible · Linux
 
 ---
 
