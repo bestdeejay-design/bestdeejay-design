@@ -17,6 +17,12 @@
 
 ---
 
+<div align="center">
+
+[**English**](README.md) · [**Русский**](README.ru.md)
+
+</div>
+
 <div align="center" style="margin: 0 auto;">
 
 <a href="https://axiiom.ru" target="_blank"><img src="assets/badge-axiiom.svg" alt="AXIIOM" /></a>
