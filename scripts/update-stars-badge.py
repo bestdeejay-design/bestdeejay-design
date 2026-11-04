@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Update the total-stars badge SVG for the GitHub profile.
 
-Counts stargazers across all public repos of the configured user (with
-pagination) and writes assets/total-stars.svg in shields.io style.
-Pure Python 3 stdlib — no external dependencies.
+Counts stargazers across all public repos of every configured owner (with
+pagination, one request round per owner) and writes assets/badge-stars.svg
+in shields.io style. Pure Python 3 stdlib — no external dependencies.
 
 Env:
-  GITHUB_USER   owner to sum stars for (default: bestdeejay-design)
+  GITHUB_USERS  comma-separated owners (default: all four organizations + dajetbro)
+  GITHUB_USER   legacy single owner; overrides GITHUB_USERS when set
   GH_TOKEN      optional token (raises rate limits; GitHub Actions provides it)
 """
 
@@ -16,7 +17,15 @@ import sys
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-USER = os.environ.get("GITHUB_USER", "bestdeejay-design")
+DEFAULT_OWNERS = ["bestdeejay-design", "rucorp", "axiiom-ru", "lovii-tech", "dajetbro"]
+_env_users = os.environ.get("GITHUB_USERS", "")
+_env_user = os.environ.get("GITHUB_USER", "")
+if _env_user:
+    OWNERS = [_env_user]
+elif _env_users:
+    OWNERS = [u.strip() for u in _env_users.split(",") if u.strip()]
+else:
+    OWNERS = DEFAULT_OWNERS
 TOKEN = os.environ.get("GH_TOKEN", "")
 
 ICONS = {
@@ -32,8 +41,8 @@ OUTS = {
 }
 
 
-def fetch_page(page: int) -> list:
-    url = f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}"
+def fetch_page(owner: str, page: int) -> list:
+    url = f"https://api.github.com/users/{owner}/repos?per_page=100&page={page}"
     req = urllib.request.Request(url, headers={"User-Agent": "stars-badge", "Accept": "application/vnd.github+json"})
     if TOKEN:
         req.add_header("Authorization", f"Bearer {TOKEN}")
@@ -43,15 +52,22 @@ def fetch_page(page: int) -> list:
 
 def total_stars() -> int:
     total = 0
-    page = 1
-    while True:
-        repos = fetch_page(page)
-        if not repos:
-            break
-        total += sum(r.get("stargazers_count") or 0 for r in repos)
-        if len(repos) < 100:
-            break
-        page += 1
+    seen = set()
+    for owner in OWNERS:
+        page = 1
+        while True:
+            repos = fetch_page(owner, page)
+            if not repos:
+                break
+            for r in repos:
+                key = (r.get("full_name") or "").lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                total += r.get("stargazers_count") or 0
+            if len(repos) < 100:
+                break
+            page += 1
     return total
 
 
